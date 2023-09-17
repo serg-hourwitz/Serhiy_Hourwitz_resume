@@ -225,7 +225,7 @@ body {
   .contacts-section-type img {
     padding-top: 3px;
   }
-  .phone, .email {
+  .phone, .email, .telegram {
     border-radius: 4px;
     background-color: #fb6d3a;
   }
