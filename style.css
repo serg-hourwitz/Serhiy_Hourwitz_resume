@@ -83,10 +83,13 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    text-decoration: none;
     color: #595959;
+    transition: all .5s ease-in-out;
   }
   .my-projects-link:hover {
-    font-weight: 700;
+    color: #fb6d3a;
+    text-decoration: underline;
   }
   
   .my-projects-text {
@@ -216,6 +219,7 @@ body {
   .contacts-section-type {
     display: flex;
     margin-bottom: 10px;
+    cursor: pointer;
     /* font-weight: bold;
     font-size: 14px;
     line-height: 24px;
@@ -226,16 +230,18 @@ body {
     padding-top: 3px;
   }
   .phone, .email, .telegram {
+    display: flex;
+    width: 27px;
+    height: 27px;
+    justify-content: center;
     border-radius: 4px;
     background-color: #fb6d3a;
   }
   .contacts-section-link {
     color: #565e6a;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    margin-left: 10px;
+    transition: all .5s ease-in-out;
   }
   .contacts-section-link:hover {
     font-weight: bold;
@@ -254,9 +260,9 @@ body {
   .tech-skills-item a {
     font-weight: bold;
     text-decoration: none;
+    transition: all .5s ease-in-out;
   }
   .tech-skills-item a:hover {
-    text-decoration: underline;
     color: #fb6d3a;
   }
   .soft-skills-item-text,
